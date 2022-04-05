@@ -6,17 +6,26 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: "https://blooming-daisy.github.io"
 # google_analytics: 'UA-46278016-1'
-disqus: 'demowebsite'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
+utterances:
+  enable : true
+  repo : blooming-daisy/blooming-daisy.github.io
+  issue-term : pathname
+  theme : preferred-color-scheme
 
-# Authors
-authors:
-  sal:
+
+
+
+
+
+# Author
+author:
+  Leena:
     name: Leena
     display_name: Leena
-    gravatar: https://w.namu.la/s/2bedbc7ea840b0006ff91c89a0c0fc26d934f29e2f7a83aeb244cae1aef84a39f7c3ffa56217fc1d50e482e46b6bbed3a2dc508f57a910b8c661bfb26dd786c2bffa5aaa30d506f7bb0c77bdef7767c59053a47a2ccfa1bfe78856a43287a0b8
+    gravatar: assets\images\profile-photo_daisy
     email: leenagohk@gmail.com
     # web: https://www.wowthemes.net
     instagram: https://www.instagram.com/leena_loves_palmtrees/
@@ -53,9 +62,9 @@ kramdown:
       line_numbers: true
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-adsense: "disabled"
-adsense-data-ad-client: "ca-pub-3412143450191416"
-adsense-data-ad-slot: "1363087678"
+# adsense: "disabled"
+# adsense-data-ad-client: "ca-pub-3412143450191416"
+# adsense-data-ad-slot: "1363087678"
 
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "disabled"
