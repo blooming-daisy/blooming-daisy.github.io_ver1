@@ -15,7 +15,7 @@ comments: true
 
 <p>Please, read my portfolio <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here<i class="fa-light fa-cube"></i></a>.</p>
 
-<h4>아이구 두야! 쉽지않은 상태,,,</h4>
+<h4>아이구 두야! 쉽지않은 상태,,, 잔디 왜 안심겨 ㅠㅠ</h4>
 
 <p>Head over to our <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Github repository</a>!</p>
 
