@@ -15,7 +15,7 @@ comments: true
 
 <p>Please, read my portfolio <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here<i class="fa-light fa-cube"></i></a>.</p>
 
-<h4>Questions or bug reports?</h4>
+<h4>아이구 두야!</h4>
 
 <p>Head over to our <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Github repository</a>!</p>
 
