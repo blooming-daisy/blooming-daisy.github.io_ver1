@@ -6,9 +6,8 @@ categories: [Jekyll, testing]
 tags: [red, yellow]
 image: assets\images\snoopy.png
 description: "Always be positive!"
-featured: false
-hidden: false
-rating: 5
+featured: true
+hidden: true
 ---
 
 Review products, books, movies, restaurant and anything you like on your Jekyll blog with Mediumish! I love it!
