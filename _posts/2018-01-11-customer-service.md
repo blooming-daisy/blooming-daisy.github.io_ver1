@@ -2,16 +2,16 @@
 layout: post
 title:  "I can do whatever I want!"
 author: Leena
-categories: [ Jekyll, tutorial ]
+categories: [Jekyll, testing]
 tags: [red, yellow]
-image: assets/images/snoopy.jpg
+image: assets\images\snoopy.png
 description: "Always be positive!"
-featured: true
-hidden: true
-rating: 4.5
+featured: false
+hidden: false
+rating: 5
 ---
 
-Review products, books, movies, restaurant and anything you like on your Jekyll blog with Mediumish! JSON-LD ready for review property.
+Review products, books, movies, restaurant and anything you like on your Jekyll blog with Mediumish! I love it!
 
 #### How to use?
 
@@ -24,7 +24,7 @@ title:  "Inception Movie"
 author: john
 categories: [ Jekyll, tutorial ]
 tags: [red, yellow]
-image: assets/images/snoopy.jpg
+image: assets/images/snoopy.png
 description: "My review of Inception movie. Actors, directing and more."
 rating: 4.5
 ---

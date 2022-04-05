@@ -1,4 +1,4 @@
-I".<p>Review products, books, movies, restaurant and anything you like on your Jekyll blog with Mediumish! JSON-LD ready for review property.</p>
+I"2<p>Review products, books, movies, restaurant and anything you like on your Jekyll blog with Mediumish! JSON-LD ready for review property.</p>
 
 <h4 id="how-to-use">How to use?</h4>
 
@@ -20,7 +20,7 @@ title:  "Inception Movie"
 author: john
 categories: [ Jekyll, tutorial ]
 tags: [red, yellow]
-image: assets/images/11.jpg
+image: assets/images/snoopy.png
 description: "My review of Inception movie. Actors, directing and more."
 rating: 4.5
 ---
