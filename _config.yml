@@ -6,7 +6,7 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ""
 # google_analytics: 'UA-46278016-1'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+# mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
 utterances:
@@ -25,7 +25,7 @@ authors:
   Leena:
     name: Leena
     display_name: Leena
-    avatar: "assets/images/profile-photo_daisy.jpg"
+    avatar: "assets/images/avatar.jpg"
     email: leenagohk@gmail.com
     instagram: https://www.instagram.com/leena_loves_palmtrees/
     description: "Be positive!!!!!"
