@@ -2,12 +2,12 @@
 layout: post
 title:  "I can do whatever I want!"
 author: Leena
-categories: [Jekyll, testing]
-tags: [red, yellow]
-image: assets\images\snoopy.png
+categories: [Jekyll, testing] #Categories indicate the genre of your post
+tags: [red, yellow, 압구정맛집] #Tags are more specific and indicate the specific topic your post seeks to cover.
+image: assets\images\snoopy.png # 포스트 안에 이미지 추가하기
 description: "Always be positive!"
 featured: true
-hidden: true
+hidden: false
 ---
 
 Review products, books, movies, restaurant and anything you like on your Jekyll blog with Mediumish! I love it!
@@ -16,7 +16,10 @@ Review products, books, movies, restaurant and anything you like on your Jekyll 
 
 #### How to use?
 
-It's actually really simple! Add the rating in your YAML front matter. It also supports halfs:
+드디어 나도 만들었따!!!!
+
+
+rating : 💛💛💛💛🤍
 
 ```html
 ---
@@ -27,6 +30,6 @@ categories: [ Jekyll, tutorial ]
 tags: [red, yellow]
 image: assets/images/snoopy.png
 description: "My review of Inception movie. Actors, directing and more."
-rating: 4.5
+rating: ❤❤❤❤🤍
 ---
 ```
