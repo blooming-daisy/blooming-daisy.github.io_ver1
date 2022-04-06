@@ -61,6 +61,26 @@ post_class: post-template
             {% endif %}
             <!-- End Featured Image -->
 
+
+<style type = 'text/css'>
+.c1 {
+    color:slategray;
+    background-color:bisque;
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.c2{
+    color:darkslategray;
+    background-color:ivory;
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+</style>
+
+
+
             <!-- Post Content -->
             <div class="article-post">
                 <!-- Toc if any -->
@@ -69,7 +89,7 @@ post_class: post-template
                         <p><em>{{page.beforetoc}}</em></p>
                     {% endif %}
                     <div class="toc mt-4 mb-4 lead">
-                        <h3 class="font-weight-bold">Summary</h3>
+                        <h3 class="c1">Summary</h3>
                         {% include toc.html html=content %}
                     </div>
                 {% endif %}
