@@ -4,7 +4,8 @@ title: "잔디가 심길까요?"
 description: "Testing blog"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: "https://blooming-daisy.github.io/"
+url: "https://blooming-daisy.github.io/"
+baseurl: ""
 # google_analytics: 'UA-46278016-1'
 # mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
