@@ -6,6 +6,7 @@ categories: [Jekyll, testing] #Categories indicate the genre of your post
 tags: [red, yellow, 압구정맛집] #Tags are more specific and indicate the specific topic your post seeks to cover.
 image: assets\images\snoopy.png # 포스트 안에 이미지 추가하기
 description: "Always be positive!"
+toc : true
 featured: true
 hidden: false
 ---
@@ -18,8 +19,12 @@ Review products, books, movies, restaurant and anything you like on your Jekyll 
 
 드디어 나도 만들었따!!!!
 
+#### toc test 1
 
 rating : 💛💛💛💛🤍
+
+
+#### toc test 2
 
 ```html
 ---
