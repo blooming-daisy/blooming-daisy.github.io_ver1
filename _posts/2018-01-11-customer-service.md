@@ -10,7 +10,6 @@ toc : true
 toc_sticky : true
 featured: true
 hidden: false
-date: '%Y-%m-%d'
 ---
 
 Review products, books, movies, restaurant and anything you like on your Jekyll blog with Mediumish! I love it!
