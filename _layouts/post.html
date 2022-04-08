@@ -86,45 +86,20 @@ post_class: post-template
                 
                 <!-- 1. 원본(mediumish theme) -->
                 <!-- Toc if any -->
-                <!-- {% if page.toc %}
+                {% if page.toc %}
                     {% if page.beforetoc %}
                         <p><em>{{page.beforetoc}}</em></p>
                     {% endif %}
                     <div class="toc mt-4 mb-4 lead c2">
                         <h3>Summary</h3>
-                        {% include toc.html class = "c1" html=content %}
+                        {% include toc.html class = "c2" html=content %}
                     </div>
-                {% endif %} -->
-                <!-- End Toc -->
-                <!-- {{content}} -->
-            
-            
-                <!-- 2. https://devinlife.com/howto%20github%20pages/toc-table/ -->
-        
-                {% if page.toc or page.toc_ads %}
-                <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
-                    <nav class="toc">
-                    {% if page.toc %}
-                        <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4></header>
-                        {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" %}
-                    {% endif %}
-                    </nav>
-                    <!-- devinlife comment : right-sidebar ads -->
-                    <nav class="toc-custom">
-                    {% if page.toc_ads %}
-                        {% include GoogleAdSenseSidbar.html %}
-                    {% endif %}
-                    </nav>
-                </aside>
                 {% endif %}
-                {{ content }}
-                {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-
-
-
-
-
+                <!-- End Toc -->
+                {{content}}
             
+            
+                        
             </div>
 
             <!-- Rating -->
@@ -137,9 +112,9 @@ post_class: post-template
             <!-- Post Date -->
             <p>
             <small>
-                <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time></span>           
+                <span class="post-date"><time class="post-date" datetime="{{ page.date | date:'%Y-%m-%d' }}">{{ page.date | date:"%F" }}</time></span>           
                 {% if page.last_modified_at %}
-                (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
+                (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%F" }}</time>)
                 {% endif %}
                 </small>
             </p>
