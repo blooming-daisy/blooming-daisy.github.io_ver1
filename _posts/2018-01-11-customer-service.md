@@ -7,6 +7,7 @@ tags: [red, yellow, 압구정맛집] #Tags are more specific and indicate the sp
 image: assets\images\snoopy.png # 포스트 안에 이미지 추가하기
 description: "Always be positive!"
 toc : true
+toc_sticky : true
 featured: true
 hidden: false
 date: '%Y-%m-%d'
