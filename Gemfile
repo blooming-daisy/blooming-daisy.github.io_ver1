@@ -22,3 +22,4 @@ end
 gem "webrick", "~> 1.7"
 
 gem "jekyll", "~> 4.2"
+gem 'ffi', '~> 1.15', '>= 1.15.5'
