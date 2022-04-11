@@ -77,6 +77,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  ffi (~> 1.15, >= 1.15.5)
   jekyll (~> 4.2)
   jekyll-archives
   jekyll-feed
