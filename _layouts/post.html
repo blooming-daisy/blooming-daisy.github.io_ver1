@@ -114,7 +114,7 @@ post_class: post-template
             <small>
                 <span class="post-date"><time class="post-date" datetime="{{ page.date | date:'%Y-%m-%d' }}">{{ page.date | date:"%F" }}</time></span>           
                 {% if page.last_modified_at %}
-                (Updated: <time datetime="{{ page.last_modified_at | date:'%Y-%m-%d' }}" itemprop="dateModified">{{ page.last_modified_at | date: "%F" }}</time>)
+                (Updated: <time datetime="{{ page.last_modified_at | date:'%Y-%m-%d' }}">{{ page.last_modified_at | date: "%F" }}</time>)
                 {% endif %}
                 </small>
             </p>
