@@ -112,9 +112,9 @@ post_class: post-template
             <!-- Post Date -->
             <p>
             <small>
-                <span class="post-date"><time class="post-date" datetime="{{ page.date | date:'%Y-%m-%d' }}">{{ page.date | date:"%F" }}</time></span>           
+                <span class="post-date"><time class="post-date" datetime="{{ page.date | date:'%Y-%m-%d' }}">{{ page.date | date_to_string: "ordinal", "US" }}</time></span>           
                 {% if page.last_modified_at %}
-                (Updated: <time datetime="{{ page.last_modified_at | date:'%Y-%m-%d' }}">{{ page.last_modified_at | date: "%F" }}</time>)
+                (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y"}}</time>)
                 {% endif %}
                 </small>
             </p>
@@ -195,7 +195,7 @@ https://search.google.com/structured-data/testing-tool/u/0/
     "@type": "Person",
     "name": "{{ author.display_name }}"
   },
-  "datePublished": "{{ page.date | date:"%Y-%m-%d" }}",
+  "datePublished": "{{ page.date | date_to_string: "ordinal", "US" }}",
   "reviewRating": {
     "@type": "Rating",
     "ratingValue": "{{ page.rating }}",
