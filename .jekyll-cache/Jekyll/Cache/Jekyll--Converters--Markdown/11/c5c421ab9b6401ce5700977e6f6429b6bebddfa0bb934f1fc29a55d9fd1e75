@@ -1,0 +1,8 @@
+I"<ul class="toc__menu">
+  <li><a href="#">I can do whatever I want!</a>
+      - {:.} <a href="#">Summary</a>
+          - {:.} <a href="#how-to-use">How to use?</a>
+          - {:.} <a href="#toc-test-1">toc test 1</a>
+          - {:.} <a href="#toc-test-2">toc test 2</a></li>
+</ul>
+:ET
