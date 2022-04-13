@@ -13,13 +13,23 @@ License: https://www.wowthemes.net/freebies-license/
 
 a {
     color: #00ab6b;
-    transition: all 0.2s;
+    transition: 0.2s;
 }
 
 a:hover {
     color: #038252;
     text-decoration: none;
 }
+
+aa {
+    color : red
+}
+
+
+
+
+
+
 
 pre {
     -moz-box-sizing: border-box;
